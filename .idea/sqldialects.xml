@@ -2,11 +2,11 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/ORCL_SETUP.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Procedure.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/QUANLYBANHANG_SETUP.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/QuanLyBanHang.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/TAO_ROLE_ADMIN.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/TAO_ROLE_CHO_TAC_NHAN.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/ThucHanhTrenLop.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/VIEW_PROCEDURE_TRIGGER.sql" dialect="Oracle" />
     <file url="PROJECT" dialect="Oracle" />
   </component>
