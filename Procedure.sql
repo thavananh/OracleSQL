@@ -103,13 +103,16 @@ BEGIN
 END;
 
 --Thêm món vào đơn tại chỗ
-
-
-
-
-
-
-
+CREATE OR REPLACE PROCEDURE insertDineinOrderDetail(
+    p_madh IN VARCHAR2,
+    p_mamonan IN VARCHAR2,
+    p_soluong IN NUMBER
+)
+    IS
+BEGIN
+    INSERT INTO HOADONCHITIET_DINEIN(MADH, MAMONAN, SOLUONG)
+    VALUES (p_madh, p_mamonan, p_soluong);
+END;
 
 
 -- --thêm món vào đơn hàng
